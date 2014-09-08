@@ -8,10 +8,11 @@ It has no dependencies other than the Microsoft Visual Studio IDE and the Micros
 Unlike most 3D graphics programs, _Voxvu_ does not use OpenGL or any other 3D graphics library.
 Everything is coded from scratch in C++. The images you see are computed one pixel at a time with a
 software renderer which does 3D texture mapping onto a polyhedron model. As a result:
+
 1. There is no hardware acceleration; everything is done in software
 2. The code is compact: full release build is under 97K bytes (using MFC as shared DLL)
-2. Porting to other platforms (including resource-constrained systems) is simplified
-3. The code may be useful as a teaching resource
+3. Porting to other platforms (including resource-constrained systems) is simplified
+4. The code may be useful as a teaching resource
 
 
 # Getting started #
