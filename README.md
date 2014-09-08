@@ -17,6 +17,7 @@ software renderer which does 3D texture mapping onto a polyhedron model. As a re
 # Getting started #
 To try the program without having to compile it first, grab the two _pre-built executables_ from the
 Executables folder.
+
 1. Run the test generator and create all three test data sets
    * note each data set consists of a pair of files, one for the voxel data and another for metadata
 2. Run Voxvu and choose File->Open, then select the metadata file (not the .dat file) for one of the test data sets.
