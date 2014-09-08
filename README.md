@@ -15,16 +15,13 @@ software renderer which does 3D texture mapping onto a polyhedron model. As a re
 
 
 # Getting started #
-The source code is set up to compile with Microsoft Visual Studio 2010.  It should not be difficult to adapt it
-for earlier or later releases of Visual Studio.
-
-The Voxvu solution contains two projects: Voxvu itself, and a simple program which generates voxel data files for testing.
-1. Build both projects
-2. Run the test generator and create all three test data sets
+To try the program without having to compile it first, grab the two _pre-built executables_ from the
+Executables folder.
+1. Run the test generator and create all three test data sets
    * note each data set consists of a pair of files, one for the voxel data and another for metadata
-3. Run Voxvu and choose File->Open, then select the metadata file (not the .dat file) for one of the test data sets.
+2. Run Voxvu and choose File->Open, then select the metadata file (not the .dat file) for one of the test data sets.
    * see Using the GUI below for how to interact with the image
-4. To open your own voxel data set:
+3. To open your own voxel data set:
    * create a header-less binary file containing the data in slice, row, column order
    * choose File->New in Voxvu
    * select 8-bit gray, 16-bit gray, or 15-bit RGB data format
@@ -33,6 +30,11 @@ The Voxvu solution contains two projects: Voxvu itself, and a simple program whi
    and the voxel dimensions (spacing between adjacent voxels in each direction in e.g. millimeters)
    * when you have the data on your screen, choose File->Save As to save a data-file/metadata-file pair under a new name
    * use File->Open and select the metadata file to re-open the data set in subsequent sessions
+
+The source code is set up to compile with Microsoft Visual Studio 2010.  It should not be difficult to adapt it
+for earlier or later releases of Visual Studio.
+The Voxvu solution contains two projects: Voxvu itself, and a simple program which generates voxel data files for testing.
+Build both projects.
 
    
 # Using the GUI #
