@@ -1,4 +1,6 @@
 # Voxvu #
+![Voxvu GUI image](Voxvu-gui.png)
+
 _Voxvu_ is a program for interactive visualization of 3D voxel data on Microsoft Windows.
 It has no dependencies other than the Microsoft Visual Studio IDE and the Microsoft Foundation Classes
 (MFC) library which comes with it.
