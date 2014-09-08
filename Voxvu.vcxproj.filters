@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{ecf7ffa3-8162-4ca8-a6e4-72a3450de9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{67d8f2db-670f-48fb-aed5-93bf1f2d682a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pixel and Voxel Data">
+      <UniqueIdentifier>{f2b2ca4d-8824-4624-a8e2-6882c3340e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application %28MFC%29">
+      <UniqueIdentifier>{3499466d-6001-40df-ac27-67a0eaf2aa0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Arithmetic">
+      <UniqueIdentifier>{9d33fdbe-a145-42dc-aed7-d6ff06c986a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Linear Algebra">
+      <UniqueIdentifier>{2cb308f7-2156-409b-b2f3-de1d4396e152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Geometry">
+      <UniqueIdentifier>{ea5a7ab9-19d9-4459-919b-6a09a6dfd393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application %28MFC%29\Resource Files">
+      <UniqueIdentifier>{089ab7d0-587f-45f2-a21a-0652d9d2baa4}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Application %28MFC%29\Modal Dialogs">
+      <UniqueIdentifier>{b6c0b689-4608-4d87-8ff4-89054509ada0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application %28MFC%29\Documents %28Files%29">
+      <UniqueIdentifier>{db3d8a70-b8fe-4b1e-8acc-78fb9109c1fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom GUI">
+      <UniqueIdentifier>{4a63beaa-3970-434f-bd90-a63be4b13202}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PolyhedronRenderer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyRend15BitRGB.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyRend16BitGray.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyRend8BitGray.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Application %28MFC%29</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Application %28MFC%29</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Application %28MFC%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Polyhedron.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyhedronControl.cpp">
+      <Filter>Custom GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="VolParamsDlg.cpp">
+      <Filter>Application %28MFC%29\Modal Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CineParamsDlg.cpp">
+      <Filter>Application %28MFC%29\Modal Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonControl.cpp">
+      <Filter>Custom GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcballControl.cpp">
+      <Filter>Custom GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonControl.cpp">
+      <Filter>Custom GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonFiller.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="CrosshairsControl.cpp">
+      <Filter>Custom GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyhedronModel.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Voxvu.cpp">
+      <Filter>Application %28MFC%29</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxvuView.cpp">
+      <Filter>Application %28MFC%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x4.cpp">
+      <Filter>Math\Linear Algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Math\Linear Algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Math\Linear Algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyhedronView.cpp">
+      <Filter>Application %28MFC%29</Filter>
+    </ClCompile>
+    <ClCompile Include="15BitRGBDoc.cpp">
+      <Filter>Application %28MFC%29\Documents %28Files%29</Filter>
+    </ClCompile>
+    <ClCompile Include="16BitGrayDoc.cpp">
+      <Filter>Application %28MFC%29\Documents %28Files%29</Filter>
+    </ClCompile>
+    <ClCompile Include="8BitGrayDoc.cpp">
+      <Filter>Application %28MFC%29\Documents %28Files%29</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelFilePair.cpp">
+      <Filter>Application %28MFC%29\Documents %28Files%29</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBuffer.cpp">
+      <Filter>Pixel and Voxel Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SRBuffer.cpp">
+      <Filter>Pixel and Voxel Data</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelArray.cpp">
+      <Filter>Pixel and Voxel Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\VoxelFilePair.ico">
+      <Filter>Application %28MFC%29\Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Application %28MFC%29\Resource Files</Filter>
+    </None>
+    <None Include="res\Voxvu.ico">
+      <Filter>Application %28MFC%29\Resource Files</Filter>
+    </None>
+    <None Include="res\Voxvu.rc2">
+      <Filter>Application %28MFC%29\Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PolyhedronRenderer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyRend15BitRGB.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyRend16BitGray.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyRend8BitGray.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Application %28MFC%29</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Application %28MFC%29</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Application %28MFC%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Polyhedron.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Application %28MFC%29\Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyhedronControl.h">
+      <Filter>Custom GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="VolParamsDlg.h">
+      <Filter>Application %28MFC%29\Modal Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CineParamsDlg.h">
+      <Filter>Application %28MFC%29\Modal Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonControl.h">
+      <Filter>Custom GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcballControl.h">
+      <Filter>Custom GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlayControl.h">
+      <Filter>Custom GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonControl.h">
+      <Filter>Custom GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonFiller.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="CrosshairsControl.h">
+      <Filter>Custom GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyhedronModel.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxvuView.h">
+      <Filter>Application %28MFC%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Voxvu.h">
+      <Filter>Application %28MFC%29</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedPt.h">
+      <Filter>Math\Arithmetic</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Math\Arithmetic</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Math\Linear Algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Math\Linear Algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Math\Linear Algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyhedronView.h">
+      <Filter>Application %28MFC%29</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelFilePair.h">
+      <Filter>Application %28MFC%29\Documents %28Files%29</Filter>
+    </ClInclude>
+    <ClInclude Include="15BitRGBDoc.h">
+      <Filter>Application %28MFC%29\Documents %28Files%29</Filter>
+    </ClInclude>
+    <ClInclude Include="16BitGrayDoc.h">
+      <Filter>Application %28MFC%29\Documents %28Files%29</Filter>
+    </ClInclude>
+    <ClInclude Include="8BitGrayDoc.h">
+      <Filter>Application %28MFC%29\Documents %28Files%29</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelArray.h">
+      <Filter>Pixel and Voxel Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBuffer.h">
+      <Filter>Pixel and Voxel Data</Filter>
+    </ClInclude>
+    <ClInclude Include="PixRect.h">
+      <Filter>Pixel and Voxel Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SRBuffer.h">
+      <Filter>Pixel and Voxel Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Voxvu.rc">
+      <Filter>Application %28MFC%29</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
