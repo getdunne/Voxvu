@@ -129,6 +129,11 @@ E. Ruth Johnson and Charles E. Mosher, Jr.. 1989. Integration of volume renderin
 In Proceedings of the 1989 Chapel Hill workshop on Volume visualization (VVS '89). ACM, New York, NY, USA, 1-7.
 DOI=10.1145/329129.329130
 http://doi.acm.org/10.1145/329129.329130
+(Thanks to Trancept founder Nick England for the reference.)
 
-The _Arcball_ rotation controller was developed by Ken Shoemake.
+The _Arcball_ rotation controller was developed by Ken Shoemake. You can find his original paper at
 https://www.talisman.org/~erlkonig/misc/shoemake92-arcball.pdf
+
+The "ribbon" controls are a poor-man's version of the excellent "thumbwheel" controls provided in the original
+Silicon Graphics Inc. IRIX Workstation GUI.  My good friend Betsy Zeller, who was at SGI back in the day, tells me
+these were developed by Rob Myers, Delle Maxwell and Alain Dumesny. Nice work, guys.
