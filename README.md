@@ -126,7 +126,7 @@ Here's a very short list of things I'd change, if I only had the time...
 
 
 # Acknowledgements and References #
-The name _Voxvu_ is a tribute to an earlier program by that name, developed by Tim Van Hook and Ruth Johnson of
+The name _Voxvu_ is a tribute to an earlier program by that name, developed by Chuck Mosher and Ruth Johnson of
 Trancept Systems, Inc. and Sun Microsystems, Inc., which was just one of a host of amazing graphics applications
 which came with Trancept's TAAC-1 "application accelerator" board (see http://www.virhistory.com/trancept/trancept.html).
 I learned an enormous amount from reading the excellent source code provided by Trancept/Sun.
